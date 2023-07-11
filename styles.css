@@ -1,0 +1,28 @@
+
+#grid {
+    width:50%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    margin: 0 30% 0 30%;
+    flex-wrap:wrap;
+
+}
+
+#grid img {
+    max-width:20%;
+    padding:0.5%;
+  }
+
+
+table{
+    display:flex;
+    justify-content:center;
+}
+
+button{
+    background-color: aliceblue;
+    padding:10% 25% 10% 25%;
+    font-size: larger;
+    border-radius: 10%;
+}
