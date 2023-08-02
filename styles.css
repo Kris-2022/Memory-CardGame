@@ -15,7 +15,7 @@ body {
     gap: 1%;   /* Adds a 10px gap between cards */
     max-width: 800px;   /* Set a maximum width for the grid */
     margin: 0 auto;   /* Center the grid horizontally */
-    padding: 0.5% 1%;  /* Add padding to the grid */
+    padding: 0.5% 3%;  /* Add padding to the grid */
 }
 
 
@@ -36,6 +36,7 @@ button {
     background-color: aliceblue;
     width: auto;
     padding: 10% 25% 10% 25%;
+    margin:2%;
     font-size: larger;
     border-radius: 10%;
 }
