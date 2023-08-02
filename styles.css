@@ -4,24 +4,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin:0;
+    padding:0;
 }
 
 
 #grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);   /* Creates 4 equal-sized columns */
-    gap: 10px;   /* Adds a 10px gap between cards */
+    gap: 1%;   /* Adds a 10px gap between cards */
     max-width: 800px;   /* Set a maximum width for the grid */
     margin: 0 auto;   /* Center the grid horizontally */
-    padding: 0.5% 0;  /* Add padding to the grid */
-  
+    padding: 0.5% 1%;  /* Add padding to the grid */
 }
 
 
 
 #grid img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     padding: 0.5%;
 }
 

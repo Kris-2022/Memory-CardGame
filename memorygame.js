@@ -137,8 +137,12 @@ function flipCard() {
                 cardPicked = null
                 counter++
                 if (counter == cardArray.length / 2) {
-                    document.getElementById('result').innerHTML = 'You won with ' + (++moveCounter) + ' moves!  '
+                    document.getElementById('result').innerHTML = 'You won with ' + moveCounter + ' moves!  '
                     document.getElementById("redo").style.display = "block"; // making the redo button visible
+                    // scroll vertically to focus on the victory message and the redo button
+                    document.getElementById("redo").scrollIntoView({ behavior: "smooth" });
+
+
                     return
                 }
             }
